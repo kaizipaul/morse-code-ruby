@@ -22,7 +22,7 @@ def decode_word(word)
 end
 
 # decode sentence
- 
+
 def decode_sentence(sentence)
   decoded_sentence = ''
   words_array = sentence.split(/   /)
@@ -33,6 +33,6 @@ def decode_sentence(sentence)
       decoded_sentence += " #{decode_word(word)}"
     end
   end
- 
+
   decoded_sentence
 end
