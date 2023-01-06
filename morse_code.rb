@@ -10,6 +10,17 @@ def decode_char(char)
   characters[char]
 end
 
+# decode words
+def decode_word(word)
+  translated_word = ''
+
+  word.split.each do |char|
+    translated_word += decode_char(char)
+  end
+
+  translated_word
+end
+
 # decode sentence
  
 def decode_sentence(sentence)
