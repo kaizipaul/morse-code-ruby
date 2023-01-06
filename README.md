@@ -64,7 +64,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd morse-code
-  git clone https://github.com/Jaymelfah/morse-code.git
+  git clone https://github.com/kaizipaul/morse-code-ruby.git
 ```
 
 ### Install
